@@ -1,5 +1,9 @@
 SpotifyJukebox::Application.routes.draw do
+  resources :artists do
+    resources :songs
+  end
   root 'welcome#index'
+  get '/songs' => 'songs#all'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
