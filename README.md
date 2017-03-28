@@ -79,3 +79,4 @@ This form is not as complicated as `artist` because it only accepts a `name` fie
 
 ### Uploading
 Just run `rake zip` to generate the files.zip file you should upload.
+# Spotify-Jukebox
